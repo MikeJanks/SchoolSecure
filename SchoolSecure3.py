@@ -10,8 +10,8 @@ from twilio.rest import Client
 
 app = Flask(__name__)
 
-account_sid = 'ACfded0ec5fd3d5704e874e7d3f23b0603'
-auth_token = 'ff60b388dc3440ea16cb9a52be50bebf'
+account_sid = 'xxxxxxxxxx'
+auth_token  = 'xxxxxxxxxx'
 twilioPhoneNumber = '+17324083945'
 
 client = Client(account_sid, auth_token)
